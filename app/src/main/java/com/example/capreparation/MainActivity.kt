@@ -48,6 +48,12 @@ class MainActivity : AppCompatActivity() {
                     "you are fined Rs.100 per day after return date",
                     Toast.LENGTH_SHORT
                 ).show()
+            }else{
+                Toast.makeText(
+                    this,
+                    "Return in time",
+                    Toast.LENGTH_SHORT
+                ).show()
             }
         }
 
